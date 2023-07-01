@@ -4,19 +4,26 @@
   "description": "This is the API of transportplanung.ch",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kosciste/transportplanung_api.git"
   },
-  "author": "",
+  "author": "Stefan Koscica",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kosciste/transportplanung_api/issues"
   },
   "homepage": "https://github.com/kosciste/transportplanung_api#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.4.3",
+    "nodemon": "^2.0.22"
   }
 }
